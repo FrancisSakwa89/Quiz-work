@@ -33,9 +33,10 @@ body{
     cursor: pointer;
 }
 #photo{
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
+    float: right;
 }
-p,br{
-   color;blue;
+p{
+   color: blue;
 }

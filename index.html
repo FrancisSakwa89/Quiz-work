@@ -11,31 +11,40 @@
   <body>
     <form id="quizboard">
       <h1>This is my quizboard</h1>
-    <p>1. Is javascript a programming language?<br>
+      <marquee behavior="scroll" direction="up">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwxSLU9tfRCiGddEiF_0nK1h3J9uWPNeRr5bDL7J-uBUaF3l8bbQ">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqyV8OayHnKASGhZi7XMOpJWZjnClCXl9Az6sTeIjJt__Pw6e4">
+      </marquee>
+      <h2>Enter your name<h2>
+    <input id="textbox" type="text">
+    <p>1. Is javascript a programming language?</p>
     <input id="textbox" type="text" name="question1">
-    <p>2. What is javascript?<br>
-    <input type="radio" id="Inc" name="question2" value="Object oriented computer programming used to create interactive effects within the browser.">Object oriented computer programming used to create interactive effects within the browser.<br>
-    <input type="radio" id="Inc" name="question2" value="A HTML programming language ">A HTML programming language <br>
-    <input type="radio" id="Inc" name="question2" value="java">java<br>
-    <p>3. What is the use of javascript?<br>
-    <input type="radio" id="Inc" name="question3" value="Used for apploading games">Used for apploading games<br>
-    <input type="radio" id="Inc" name="question3" value="Used as aclient side scripting language">Used as aclient side scripting language<br>
-    <p>4. Where is javascript code written?<br>
-    <input type="radio" id="Inc" name="question4" value="On HTML page">On HTML page<br>
-    <input type="radio" id="Inc" name="question4" value="On jsfiddle">On jsfiddle<br>
-    <p>5. Why do we need to use jQuery?<br>
-    <input type="radio" id="Inc" name="question5" value="It's a language">It's a language<br>
+    <p>2. What is javascript?</p>
+    <input type="radio" id="Inc" name="question2" value="Object oriented computer programming used to create interactive effects within the browser.">Object oriented computer programming used to create interactive effects within the browser.</p>
+    <input type="radio" id="Inc" name="question2" value="A HTML programming language ">A HTML programming language </p>
+    <input type="radio" id="Inc" name="question2" value="java">java</p>
+    <p>3. What is the use of javascript?</p>
+    <input type="radio" id="Inc" name="question3" value="Used for apploading games">Used for apploading games</p>
+    <input type="radio" id="Inc" name="question3" value="Used as aclient side scripting language">Used as aclient side scripting language</p>
+    <p>4. Where is javascript code written?</p>
+    <input type="radio" id="Inc" name="question4" value="On HTML page">On HTML page</p>
+    <input type="radio" id="Inc" name="question4" value="On jsfiddle">On jsfiddle</p>
+    <p>5. Why do we need to use jQuery?</p>
+    <input type="radio" id="Inc" name="question5" value="It's a language">It's a language</p>
     <input type="radio" id="Inc" name="question5" value="It's hard">It's hard<br>
     <input type="radio" id="Inc" name="question5" value="It simplifies javascript code into simple codes using methods">It simplifies javascript code into simple codes using methods<br>
-    <p>6. What is the advantage of using bootstrap?<br>
-    <input type="radio" id="Inc" name="question6" value="It's simple">It's simple<br>
-    <input type="radio" id="Inc" name="question6" value="It multiplies codes">It multiplies codes<br>
-    <input type="radio" id="Inc" name="question6" value="It has a speed of development">It has a speed of development<br>
+    <p>6. What is the advantage of using bootstrap?</p>
+    <input type="radio" id="Inc" name="question6" value="It's simple">It's simple</p>
+    <input type="radio" id="Inc" name="question6" value="It multiplies codes">It multiplies codes</p>
+    <input type="radio" id="Inc" name="question6" value="It has a speed of development">It has a speed of development</p>
     <button id="button" type="button" value="submit" onclick="quizboard();">SUBMIT</button>
     <div id="after_submit">
     <p id="message"></p>
     <p id="number_correct"></p>
     <img id="photo">
+    <br>
+  </br>
+
   </form>
   </body>
 </html>
