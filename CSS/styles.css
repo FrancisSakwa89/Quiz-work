@@ -4,5 +4,38 @@ body{
    text-align: center;
 }
 #quizboard{
-   margin
+   margin-left: 15px;
+   background-color: yellow;
+   padding: 10px,20px,10px,20px;
+   border-radius: 25px;
+ }
+}
+#after_submit{
+   visibility: hidden;
+   width: 300px;
+   border-radius: 10px,20px,10px,20px;
+   font-size: 30px;
+    float:none;
+}
+  #button {
+   background: green;
+   border: none;
+   border-radius: 7px;
+   padding: 10px;
+   color: 15px;
+   color: white;
+   transition-duration: .3s;
+}
+ #buttonhover{
+    background: maroon;
+    border: 2px solid grey;
+    color: grey;
+    cursor: pointer;
+}
+#photo{
+    width: 400px;
+    height: 300px;
+}
+p,br{
+   color;blue;
 }
