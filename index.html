@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>This is my quiz board</title>
+    <link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
+      <link href="CSS/styles.css" rel="stylesheet" type="text/css">
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <form id="quizboard" name="quizboard">
+    <p>Is javascript a programming language?<br>
+    <input id="textbox" type="text" name="question1">
+    <p>What is javascript?<br>
+    <input type="radio" id="Inc" name="question2" value="Object oriented computer programming used to create interactive effects within the browser.">Object oriented computer programming used to create interactive effects within the browser.<br>
+    <input type="radio" id="Inc" name="question2" value="A HTML programming language ">A HTML programming language <br>
+    <input type="radio" id="Inc" name="question2" value="java">java<br>
+    <p>What is the use of javascript?</p>
+    <input type="radio" id="Inc" name="question3" value="Used for apploading games">Used for apploading games<br>
+    <input type="radio" id="Inc" name="question3" value="Used as aclient side scripting language">Used as aclient side scripting language<br>
+    <p>Where is javascript code written?</p>
+    <input type="radio" id="Inc" name="question4" value="On HTML page">On HTML page<br>
+    <input type="radio" id="Inc" name="question4" value="On jsfiddle">On jsfiddle<br>
+    <p>Why do we need to use jQuery?</p>
+    <input type="radio" id="Inc" name="question5" value="It's a language">It's a language<br>
+    <input type="radio" id="Inc" name="question5" value="It's hard">It's hard<br>
+    <input type="radio" id="Inc" name="question5" value="It simplifies javascript code into simple codes using methods">It simplifies javascript code into simple codes using methods<br>
+    <p>What is the advantage of using bootstrap?<br>
+    <input type="radio" id="Inc" name="question6" value="It's simple">It's simple<br>
+    <input type="radio" id="Inc" name="question6" value="It multiplies codes">It multiplies codes<br>
+    <input type="radio" id="Inc" name="question6" value="It has a speed of development">It has a speed of development<br>
+    <input id="button" type="button" value="submit" onclick="quizboard();">
+    <div id="after_submit">
+    <p id="message"></p>
+    <p id="number_correct"></p>
+    <img id="photo">
+  </body>
+</html>
