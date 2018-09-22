@@ -8,7 +8,7 @@
 * Open your browser and serach for FrancisSakwa89
 * Chose a Quiz work repository
 * Open your atom/visual studio code
-* git clone https://github.com/FrancisSakwa89/Quiz-work.git  the link and work on it if it's your preffered text editor.
+* git clone  https://francissakwa89.github.io/Quiz-work/  the link and work on it if it's your preffered text editor.
 ##
 ## Technologies Used
  HTML
