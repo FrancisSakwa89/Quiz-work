@@ -1,21 +1,34 @@
 body{
-   background-color: yellow;
+   background-color: purple;
    font-family: sans-serif;
    text-align: center;
+   border: 3px solid yellow;
+   font-size: 20px;
+   /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc-XoXRxkpjubAR8gzDL71uX_IhnPeZhfNNCTEUixzwOCO55w); */
 }
 #quizboard{
    margin-left: 15px;
-   background-color: yellow;
-   padding: 10px,20px,10px,20px;
+   background-color: blue;
+   padding: 10px;
    border-radius: 25px;
  }
+ #test{
+display: none;
 }
-#after_submit{
-   visibility: hidden;
-   width: 300px;
-   border-radius: 10px,20px,10px,20px;
-   font-size: 30px;
-    float:none;
+.begin{
+cursor: pointer;
+color: salmon;
+font-size:25px;
+}
+}
+
+.start:hover{
+text-decoration: underline;
+}
+
+.result{
+display: none;
+color: salmon;
 }
   #button {
    background: green;
@@ -32,11 +45,19 @@ body{
     color: grey;
     cursor: pointer;
 }
-#photo{
-    width: 300px;
-    height: 200px;
+#image{
+    width:auto;
+    height: auto;
     float: right;
 }
 p{
    color: blue;
+   font-style: italic;
+}
+h1{
+   color :red;
+   font-style: italic;
+}
+h2{
+   color: purple;
 }

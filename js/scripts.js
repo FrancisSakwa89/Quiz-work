@@ -1,43 +1,22 @@
-function quizboard() {
-   var question1 = document.quizboard.question1.value;
-   var question2 = document.quizboard.question2.value;
-   var question3 = document.quizboard.question3.value;
-   var question4 = document.quizboard.question4.value;
-   var question5 = document.quizboard.question5.value;
-   var question6 = document.quizboard.question6.value;
-   var correct=0;
-
-   if (question1===" YES ")
-     correct ++;
+var testResults = function(one, two ,three, four){
+return one + two + three + four;
 }
-   if (question2 =="Object oriented computer programming used to create interactive effects within the browser.") {
-      correct ++ ;
-   }
-   if (question3=="Used as aclient side scripting language") {
-      correct ++
-   }
-   if (question4=="On HTML page") {
-       correct ++;
-   }
-   if (question5=="It simplifies javascript code into simple codes using methods") {
-      correct ++;
-   }
-   if (question6=="It has a speed of development") {
-      correct ++;
-   }
-  var messages =["Excellent", "Good work", "Work hard"];
-  var photos =["images(1).jpeg", "images(2).jpeg", "images.jpeg"]
-  var ranges ;
-  if (correct < 1) {
-      range = 2;
-  }
-  else if (correct > 0 && correct < 2) {
-      score=2;
-  }
-  else if (correct > 2) {
-     score = 0;
-  }
-  document.getElementById("after_submit").styleVisibilty ="visible";
-  document.getElementById("message").innerHTML=messages[range];
-  document.getElementById("number_correct").innerHTML="you got" + correct + "correct.";
-  document.getElementById("photos").src=photos[score];
+  $(document).ready(function(){
+  $(".begin").click(function(){
+    $("#test").fadeToggle("slow");
+  });
+  $("form#test").submit(function(event){
+    var question1 = parseInt($("input:radio[name=question1]:checked").val());
+    var question2 = parseInt($("input:radio[name=question2]:checked").val());
+    var question3 = parseInt($("input:radio[name=question3]:checked").val());
+    var question4 = parseInt($("input:radio[name=question4]:checked").val());
+    var question5 = parseInt($("input:radio[name=question5]:checked").val());
+    var question6 = parseInt($("input:radio[name=question6]:checked").val());
+    var result = testResults(question1, question2 ,question3, question4, question5, question6);
+
+    $("#display").text("Your score is:" + result);
+
+    event.preventDefault();
+    $(".result").show();
+  });
+});

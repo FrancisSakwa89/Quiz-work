@@ -1,50 +1,102 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- <meta charset="utf-8"> -->
-    <title>This is my quiz board</title>
+   <meta charset="utf-8">
+    <title>Quiz Board</title>
     <link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="CSS/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jQuery.js"</script>
-    <script src="js/scripts.js"></script>
-  </head>
-  <body>
-    <form id="quizboard">
-      <h1>This is my quizboard</h1>
-      <marquee behavior="scroll" direction="up">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwxSLU9tfRCiGddEiF_0nK1h3J9uWPNeRr5bDL7J-uBUaF3l8bbQ">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqyV8OayHnKASGhZi7XMOpJWZjnClCXl9Az6sTeIjJt__Pw6e4">
-      </marquee>
-      <h2>Enter your name<h2>
-    <input id="textbox" type="text">
-    <p>1. Is javascript a programming language?</p>
-    <input id="textbox" type="text" name="question1">
-    <p>2. What is javascript?</p>
-    <input type="radio" id="Inc" name="question2" value="Object oriented computer programming used to create interactive effects within the browser.">Object oriented computer programming used to create interactive effects within the browser.</p>
-    <input type="radio" id="Inc" name="question2" value="A HTML programming language ">A HTML programming language </p>
-    <input type="radio" id="Inc" name="question2" value="java">java</p>
-    <p>3. What is the use of javascript?</p>
-    <input type="radio" id="Inc" name="question3" value="Used for apploading games">Used for apploading games</p>
-    <input type="radio" id="Inc" name="question3" value="Used as aclient side scripting language">Used as aclient side scripting language</p>
-    <p>4. Where is javascript code written?</p>
-    <input type="radio" id="Inc" name="question4" value="On HTML page">On HTML page</p>
-    <input type="radio" id="Inc" name="question4" value="On jsfiddle">On jsfiddle</p>
-    <p>5. Why do we need to use jQuery?</p>
-    <input type="radio" id="Inc" name="question5" value="It's a language">It's a language</p>
-    <input type="radio" id="Inc" name="question5" value="It's hard">It's hard<br>
-    <input type="radio" id="Inc" name="question5" value="It simplifies javascript code into simple codes using methods">It simplifies javascript code into simple codes using methods<br>
-    <p>6. What is the advantage of using bootstrap?</p>
-    <input type="radio" id="Inc" name="question6" value="It's simple">It's simple</p>
-    <input type="radio" id="Inc" name="question6" value="It multiplies codes">It multiplies codes</p>
-    <input type="radio" id="Inc" name="question6" value="It has a speed of development">It has a speed of development</p>
-    <button id="button" type="button" value="submit" onclick="quizboard();">SUBMIT</button>
-    <div id="after_submit">
-    <p id="message"></p>
-    <p id="number_correct"></p>
-    <img id="photo">
-    <br>
-  </br>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
 
-  </form>
-  </body>
-</html>
+    </script>
+    <script src="js/scripts.js"></script>
+
+    <script src="js/jQuery.js"></script>
+  </head>
+  <body >
+
+    <div class="jumbotron">
+      <div id="intro">
+        <h1> QUIZBOARD</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-fqDj5tY8QyuUORtcCN-GC_fKotSVw4VpGLcgKvV8aAt4nUQB">
+          <p><span class="begin">(Click here to continue)</span> The Quiz</p>
+            <marquee><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKnDSWAOSvZb1qN9jUTA7DeI9eXvrHEnXOUzqN2lvICwcrmuIJ">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMfePH6lcTlaAQPtSv5h_KiA7QzozbQmUWljF08IqVpUbAmVeY">
+            </marquee>
+          </div>
+          <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+              <form id="test">
+                <div class="well">
+                    <p>Try them out !!!! </p>
+                  <h3>Questions.</h3>
+
+                  <h2>Answer all questions.</h2>.
+
+                  <label for="question1">1.What is javascript? </label>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="question1" value="20">Object oriented computer programming used to create interactive effects within the browser.
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="question1" value="0">A HTML programming language.
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="question1" value="0">java
+                      </label>
+                    </div>
+                    <label for="question2">2. What is the use of javascript?</label>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="question2" value="0">Used for apploading games.
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="question2" value="20">Used as aclient side scripting language.
+                        </label>
+                      </div>
+                      <div class="radio">
+                      </div>
+                      <label for="question3">3. Is javascript a programming language ?</label>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="question3" value="20">Yes
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="question3" value="0">No
+                          </label>
+                        </div>
+                        <label for="question4">4. Why do we need to use jQuery ?</label>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="question4" value="0">It's a language.
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="question4" value="20">It simplifies javascript code into simple codes using methods.
+                          </label>
+                        </div>
+                        <button type="submit" class="btn-success">Submit</button>
+                      </div>
+                <div class="result">
+                  <span id="display">Your score is:0</span>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-4">
+            </div>
+          </div>
+          </div>
+          </div>
+          </body>
+          </html>
