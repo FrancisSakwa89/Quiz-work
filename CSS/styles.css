@@ -25,7 +25,13 @@ font-size:25px;
 .start:hover{
 text-decoration: underline;
 }
-
+.jumbotron{
+   color: red;
+   font-style: oblique;
+}
+.well {
+  color: purple;
+}
 .result{
 display: none;
 color: salmon;
