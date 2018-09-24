@@ -32,7 +32,8 @@ The user fails all questions          |Your result is 0
 ## Support and contact details
  * To reach us contact 0701112358, or email sakwafrancis89@gmail.com
 ### License
-*MIT
+* MIT
+
 Copyright (c) 2018 Francis Sakwa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sub_license, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
