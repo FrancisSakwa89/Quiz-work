@@ -1,6 +1,7 @@
 # QUIZ BOARD
 #### This application is called Quiz board that allow users to fill answers in aform from the given choices.
-#### By **Francis Sakwa**
+#### By
+**Francis Sakwa**
 ## Description
    This application is called Quiz board that allow users to fill answers in aform from the given choices.It gives the user achance to fill in the values appropriately, It only gives achance for the user to select one choice. including its purpose and usage. 
 ## Installation Requirements
@@ -9,7 +10,15 @@
 * Chose a Quiz work repository
 * Open your atom/visual studio code
 * git clone  https://francissakwa89.github.io/Quiz-work/  the link and work on it if it's your preffered text editor.
-##
+#####BDD
+users input                           | expected output
+--------------------------------------|----------------------------
+The user does not answer all questions|Your result is NaN
+--------------------------------------|----------------------------
+Each question contains                |20 Marks       
+--------------------------------------|----------------------------
+The user scores all questions correct |You result is 80
+--------------------------------------|----------------------------
 ## Technologies Used
  HTML
  CSS
