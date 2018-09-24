@@ -24,11 +24,11 @@ The user scores all questions correct |You result is 80
 The user fails all questions          |Your result is 0
 --------------------------------------|----------------------------
 ## Technologies Used
- HTML
- CSS
- javaScript
- jQuery
- Bootstrap
+ * HTML
+ * CSS
+ * javaScript
+ * jQuery
+ * Bootstrap
 ## Support and contact details
  * To reach us contact 0701112358, or email sakwafrancis89@gmail.com
 ### License
