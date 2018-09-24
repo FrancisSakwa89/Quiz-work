@@ -1,6 +1,8 @@
+//Bussinesss Logic Interface(back-end)
 var testResults = function(one, two ,three, four){
 return one + two + three + four;
 }
+  //User Interface(front-end)
   $(document).ready(function(){
   $(".begin").click(function(){
     $("#test").fadeToggle("slow");
