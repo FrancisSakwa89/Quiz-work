@@ -12,7 +12,7 @@
 * git clone  https://francissakwa89.github.io/Quiz-work/  the link and work on it if it's your preffered text editor.
 
 
-#####BDD
+##### BDD
 users input                           | expected output
 --------------------------------------|----------------------------
 The user does not answer all questions|Your result is NaN
