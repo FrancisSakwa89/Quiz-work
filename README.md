@@ -21,6 +21,8 @@ Each question contains                |20 Marks
 --------------------------------------|----------------------------
 The user scores all questions correct |You result is 80
 --------------------------------------|----------------------------
+The user fails all questions          |Your result is 0
+--------------------------------------|----------------------------
 ## Technologies Used
  HTML
  CSS
