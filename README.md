@@ -10,6 +10,8 @@
 * Chose a Quiz work repository
 * Open your atom/visual studio code
 * git clone  https://francissakwa89.github.io/Quiz-work/  the link and work on it if it's your preffered text editor.
+
+
 #####BDD
 users input                           | expected output
 --------------------------------------|----------------------------
