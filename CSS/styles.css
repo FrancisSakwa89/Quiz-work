@@ -1,5 +1,4 @@
 body{
-   background-color: purple;
    font-family: sans-serif;
    text-align: center;
    border: 3px solid yellow;
@@ -9,7 +8,6 @@ body{
 }
 #quizboard{
    margin-left: 15px;
-   background-color: blue;
    padding: 10px;
    border-radius: 25px;
  }
@@ -18,7 +16,6 @@ display: none;
 }
 .begin{
 cursor: pointer;
-color: salmon;
 font-size:25px;
 }
 }
@@ -30,15 +27,12 @@ text-decoration: underline;
    color: red;
    font-style: oblique;
 }
-.well {
-  color: purple;
-}
+
 .result{
 display: none;
 color: salmon;
 }
   #button {
-   background: green;
    border: none;
    border-radius: 7px;
    padding: 10px;
@@ -47,7 +41,6 @@ color: salmon;
    transition-duration: .3s;
 }
  #buttonhover{
-    background: maroon;
     border: 2px solid grey;
     color: grey;
     cursor: pointer;
