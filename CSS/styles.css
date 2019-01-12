@@ -4,7 +4,8 @@ body{
    text-align: center;
    border: 3px solid yellow;
    font-size: 20px;
-   /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc-XoXRxkpjubAR8gzDL71uX_IhnPeZhfNNCTEUixzwOCO55w); */
+   background-image: url('https://images.unsplash.com/photo-1536080335162-ebc01000f8d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+   background-size:cover;
 }
 #quizboard{
    margin-left: 15px;
