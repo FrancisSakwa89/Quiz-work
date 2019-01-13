@@ -3,8 +3,7 @@ body{
    text-align: center;
    border: 3px solid yellow;
    font-size: 20px;
-   background-image: url('https://images.unsplash.com/photo-1536080335162-ebc01000f8d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
-   background-size:cover;
+   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);    background-size:cover;
 }
 #quizboard{
    margin-left: 15px;
